@@ -1,5 +1,5 @@
 .back123 {
-    background-image: url("https://cdn-images-1.medium.com/max/1600/1*O9qqEUGz5dIvNQChg54CJg.jpeg");
+    background-image: url("https://i.ytimg.com/vi/0apHD_h8enU/maxresdefault.jpg");
     height: 29%;
     width: 100%;
 }
@@ -9,11 +9,12 @@
 
 }
 .tet {
-    text-align-last: justify;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align-last: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 70px;
     text-shadow: 9px;
     color: white;
+    padding-top: 15px;
 }
 .btn-home {
     padding: 10%;
