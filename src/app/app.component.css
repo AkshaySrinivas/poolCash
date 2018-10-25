@@ -1,0 +1,20 @@
+.back123 {
+    background-image: url("https://cdn-images-1.medium.com/max/1600/1*O9qqEUGz5dIvNQChg54CJg.jpeg");
+    height: 29%;
+    width: 100%;
+}
+.btn-login  {
+    padding: 14px 40px;
+    margin: 30px;
+
+}
+.tet {
+    text-align-last: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 70px;
+    text-shadow: 9px;
+    color: white;
+}
+.btn-home {
+    padding: 10%;
+}
