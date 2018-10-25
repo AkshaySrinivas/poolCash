@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SigninComponent } from './signin/signin.component';
@@ -15,6 +14,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material/button';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import {MatGridListModule} from '@angular/material/grid-list';
+import { LooksComponent } from './looks/looks.component';
+import {MatMenuModule} from '@angular/material/menu';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import {MatGridListModule} from '@angular/material/grid-list';
     SignupComponent,
     TopbarComponent,
     SideNavComponent,
-    AboutusComponent
+    AboutusComponent,
+    LooksComponent
   ],
   imports: [
     BrowserModule,
@@ -35,7 +37,8 @@ import {MatGridListModule} from '@angular/material/grid-list';
     MatListModule,
     BrowserAnimationsModule,
     MatButtonModule,
-    MatGridListModule
+    MatGridListModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]

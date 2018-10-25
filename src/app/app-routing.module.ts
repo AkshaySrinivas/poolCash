@@ -12,6 +12,7 @@ const routes: Routes = [
   { path: 'dashboard' , 
     component:SideNavComponent ,
     children: [
+      { path: '', redirectTo: 'aboutus', pathMatch: 'full' },
       {path: 'aboutus',component:AboutusComponent}
     ]
   
